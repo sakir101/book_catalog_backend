@@ -10,4 +10,5 @@ const auth_controller_1 = require("./auth.controller");
 const auth_validation_1 = require("./auth.validation");
 const router = express_1.default.Router();
 router.post('/signup', (0, validateRequest_1.default)(auth_validation_1.UserValidation.create), auth_controller_1.AuthController.insertIntoDB);
+router.post('/signin', auth_controller_1.AuthController.loginUser);
 exports.AuthRoutes = router;

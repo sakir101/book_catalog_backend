@@ -3,7 +3,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.errorlogger = exports.logger = void 0;
 /* eslint-disable no-undef */
 const path_1 = __importDefault(require("path"));
 const winston_1 = require("winston");
@@ -31,7 +30,6 @@ const logger = (0, winston_1.createLogger)({
         }),
     ],
 });
-exports.logger = logger;
 const errorlogger = (0, winston_1.createLogger)({
     level: 'error',
     format: combine(label({ label: 'PH' }), timestamp(), myFormat),
@@ -46,4 +44,4 @@ const errorlogger = (0, winston_1.createLogger)({
         }),
     ],
 });
-exports.errorlogger = errorlogger;
+// export { logger, errorlogger };

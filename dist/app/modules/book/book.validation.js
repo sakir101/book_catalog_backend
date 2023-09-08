@@ -29,7 +29,7 @@ const update = zod_1.z.object({
         title: zod_1.z.string().optional(),
         author: zod_1.z.string().optional(),
         price: zod_1.z.number().optional(),
-        genre: zod_1.z.number().optional(),
+        genre: zod_1.z.string().optional(),
         publicationDate: zod_1.z.string().optional(),
         categoryId: zod_1.z.string().optional(),
     })
