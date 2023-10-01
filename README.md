@@ -12,7 +12,7 @@
 * https://book-catallog-backend-six.vercel.app/api/v1/users (Get)
 * https://book-catallog-backend-six.vercel.app/api/v1/users/41b6ee0a-3a9c-4b9b-96a8-ffd40bc01834 (Single Get)
 * https://book-catallog-backend-six.vercel.app/api/v1/users/41b6ee0a-3a9c-4b9b-96a8-ffd40bc01834 (Update)
-* https://book-catallog-backend-six.vercel.app/api/v1/users/58fe0dca-25dc-40ff-9b84-73db10eac695 (Delete)
+* https://book-catallog-backend-six.vercel.app/api/v1/users/5aa0ff08-c8fb-468a-96e2-c69e79c715b8 (Delete)
 
 ### Category
 * https://book-catallog-backend-six.vercel.app/api/v1/categories/create-category (Post)
